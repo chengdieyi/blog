@@ -127,12 +127,23 @@
         .cube:hover .out_bottom {
             transform: rotateX(-90deg) translateZ(200px);
         }
+        .center {
+                position: fixed;
+                top: 0px;
+                left: 0px;
+                right: 0px;
+                bottom: 0px;
+                margin: auto;
+        }
     </style>
 
 
     <!-- 外层最大容器 -->
     <div class="wrap">
         <!--包裹所有元素的容器-->
+    <div class="center">
+
+
         <div class="cube">
             <!--前面图片 -->
             <div class="out_front">
@@ -179,5 +190,5 @@
                 <img src="https://chengdieyi.github.io/blog/xiaobaobao.jpg" class="in_pic">
             </span>
         </div>
-
+    </div>
     </div>
